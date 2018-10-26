@@ -10,12 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var testLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         print(message)
     }
     
-    let message = "I am so sleepy"
+    let message = "I am sooooo sleepy"
 
 
 }
